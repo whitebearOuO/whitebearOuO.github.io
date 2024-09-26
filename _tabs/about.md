@@ -23,3 +23,4 @@ order: 4
 [youtube](https://www.youtube.com/@whitebearOuO) 最一開始是以minecraft bedwar為主，現在也是各式各樣的東西  
 [twitch](https://www.twitch.tv/shirokumaouo) 會在twitch直播，偶爾切片餵youtube  
 [hackmd](https://hackmd.io/@whitebearOuO) 你可以在這邊看到一些筆記or教學，之後應該會搬運過來
+[綠界](https://payment.ecpay.com.tw/Broadcaster/Donate/A889B1168FC706499805F1134A10B8B4) 很久很久以前開了贊助連結，如果你有閒錢歡迎斗內ouo
