@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: whitebearOuO
-  email: example@domain.com # change to your email address
+  email: r18kbt46n@mozmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/whitebearOuO # change to your Twitter homepage
@@ -119,7 +119,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:  whitebearOuO/whitebearouo.github.io 
+    repo: whitebearOuO/whitebearouo.github.io
     repo_id: R_kgDOM20AyQ
     category: General
     category_id: DIC_kwDOM20Ayc4Ci4I8
