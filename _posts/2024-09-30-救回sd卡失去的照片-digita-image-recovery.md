@@ -47,3 +47,5 @@ description: 來找回消失的照片了
 ![](assets/img/image/救回SD卡失去的照片_Digita-Image-Recovery/5.png)<br>
 點選要救的槽，更改儲存位置（我之前沒改用預設的，整個跑完之後沒東西出來，自己另外在別的地方開個資料夾吧），檔案名稱字首是修復完的照片要使用的檔名，像是用image就會變成image1、image2......<br>
 剩下的我都沒有改，按下開始等進度條跑完就完成啦，祝各位都能找回失去的照片，畢竟每張照片都是珍貴的記憶:D
+
+原文發表在[巴哈姆特](https://home.gamer.com.tw/creationDetail.php?sn=5270911)，有興趣也可以去那邊看看:D
