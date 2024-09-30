@@ -8,7 +8,11 @@ description: 測試網頁兼指令紀錄
 ---
 
 # 指令
-一直記不起來指令
+一直記不起來指令\
+[jekyll-chirpy網站](https://chirpy.cotes.page/)\
+
+---
+
 ```
 bundle exec jekyll s
 ```
