@@ -2,15 +2,41 @@
 layout: post
 title: My New Post
 date: 2024-09-26 22:20 +0800
-categories: [教學, github.io&jekyll]
+categories: [test]
 tags: [github, github.io, jekyll]
-description: test.
+description: 測試網頁兼指令紀錄
 ---
 
-# just test  
-test test can u see this?\
-test\
-新消息，反斜線也可以換行，所以可以空兩格，反斜線還有\<br> <br>
-test
-more test
-sadasdasda
+# 指令
+一直記不起來指令
+```
+bundle exec jekyll s
+```
+
+[jekyll compose](https://github.com/jekyll/jekyll-compose)
+
+new draft
+```
+bundle exec jekyll draft "My new draft"
+```
+
+rename
+```
+bundle exec jekyll rename _drafts/my-new-draft.md "My Renamed Draft"
+
+```
+
+public draft
+```
+bundle exec jekyll publish _drafts/my-new-draft.md
+```
+
+rename post
+```
+bundle exec jekyll rename _posts/2014-01-24-my-new-draft.md "My New Post"
+```
+
+刪除husky
+```
+rm -f .git/hooks/husky
+```
