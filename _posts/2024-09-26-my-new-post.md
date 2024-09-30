@@ -38,5 +38,9 @@ bundle exec jekyll rename _posts/2014-01-24-my-new-draft.md "My New Post"
 
 刪除husky
 ```
+npm uninstall husky && git config --unset core.hooksPath
+```
+
+```
 rm -f .git/hooks/husky
 ```
