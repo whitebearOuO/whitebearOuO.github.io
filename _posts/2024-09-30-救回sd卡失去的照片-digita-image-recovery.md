@@ -20,7 +20,7 @@ description: 來找回消失的照片了
 ![](assets/img/image/救回SD卡失去的照片_Digita-Image-Recovery/4.png)<br>
 電腦也要求我格式化才能使用
 
-在外面時用手機查到有個程式叫Digital Image Recovery，雖然現在官網已經失效了，不過在網路上有許多大家備份下來的可以下載 [(點我下載)](assets/img/files/救回SD卡失去的照片_Digita-Image-Recovery/DigitalImageRecovery.zip)實在是太好ㄌ<br>
+在外面時用手機查到有個程式叫Digital Image Recovery，雖然現在官網已經失效了，不過在網路上有許多大家備份下來的可以下載 [(點我下載)](https://github.com/whitebearOuO/whitebearouo.github.io/blob/master/assets/img/files/%E6%95%91%E5%9B%9ESD%E5%8D%A1%E5%A4%B1%E5%8E%BB%E7%9A%84%E7%85%A7%E7%89%87_Digita-Image-Recovery/DigitalImageRecovery.zip)實在是太好ㄌ<br>
 *這邊附的是我個人備份下來的
 
 ![](assets/img/image/救回SD卡失去的照片_Digita-Image-Recovery/5.png)<br>
@@ -38,7 +38,7 @@ description: 來找回消失的照片了
 
 ## 教學
 程式名稱：Digital Image Recovery<br>
-下載連結：[點我](assets/img/files/救回SD卡失去的照片_Digita-Image-Recovery/DigitalImageRecovery.zip)<br>
+下載連結：[點我](https://github.com/whitebearOuO/whitebearouo.github.io/blob/master/assets/img/files/%E6%95%91%E5%9B%9ESD%E5%8D%A1%E5%A4%B1%E5%8E%BB%E7%9A%84%E7%85%A7%E7%89%87_Digita-Image-Recovery/DigitalImageRecovery.zip)<br>
 檔案大小：exe檔 609KB | 下載後資料夾總大小819KB
 
 ![](assets/img/image/救回SD卡失去的照片_Digita-Image-Recovery/6.png)<br>
