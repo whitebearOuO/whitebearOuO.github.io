@@ -10,10 +10,9 @@ description: 在一個硬碟裡同時安裝windows和linux
 這篇文章應該還會慢慢更新，剛接觸linux還會有很多不完善的地方。如果有什麼建議或可以改善的地方，還請各位幫忙留言指導了> <
 以manjaro KDE為範例，系統安裝完之後會再介紹一些manjaro的設定。
 
-# 系統安裝
+## 系統安裝
 
-## 安裝windows
-
+### 安裝windows
 我們先安裝windows，在安裝windows的過程中就預留空間給manjaro安裝。
 首先先在要用來安裝系統的磁碟機，按新增，看你要給windows多大的空間就新增多少。
 ![P_20240423_221348](https://hackmd.io/_uploads/BkK6qDezA.jpg)
@@ -30,8 +29,7 @@ description: 在一個硬碟裡同時安裝windows和linux
 熟悉的安裝windows的畫面。裝完windows就可以關掉換裝manjaro了。
 ![P_20240423_221512](https://hackmd.io/_uploads/Syt7mdxzC.jpg)
 
-## 安裝manjaro
-
+### 安裝manjaro
 有裝manjaro iso檔的usb，插進電腦，改成開機碟。
 進到設定畫面的時候記得要快點動，不然過太久的話他就會直接進到下一步了。
 ![upload_0e5d115c80184cd88768d78133486e39](https://hackmd.io/_uploads/SkvPHy770.jpg)
@@ -96,8 +94,8 @@ description: 在一個硬碟裡同時安裝windows和linux
 
 裝完之後重新開機就完成了。
 
-# 系統設定
-## 主路徑中文改英文
+## 系統設定
+### 主路徑中文改英文
 
 原教學：<https://segmentfault.com/a/1190000037454534>
 
@@ -131,10 +129,8 @@ export LANG=zh_TW.UTF-8
 
 ---
 
-# 輸入法
-
-## 安裝中文輸入法
-
+## 輸入法
+### 安裝中文輸入法
 原教學：<https://home.gamer.com.tw/artwork.php?sn=5303263>
 安裝完鍵盤輸入框架之後，會再安裝[小麥注音](https://github.com/openvanilla/fcitx5-mcbopomofo)來用。
 
@@ -157,8 +153,7 @@ export LANG=zh_TW.UTF-8
 
 ---
 
-## 小麥注音輸入法
-
+### 小麥注音輸入法
 <https://github.com/openvanilla/fcitx5-mcbopomofo>
 <https://github.com/openvanilla/fcitx5-mcbopomofo/wiki/%E5%A6%82%E4%BD%95%E5%9C%A8-Arch-Linux-%E4%B8%8A%E5%AE%89%E8%A3%9D-fcitx5-mcbopomofo>
 
@@ -206,11 +201,8 @@ sudo pacman -S make
 
 ---
 
-# 程式
-
-## 如何下載yay
-
-
+## 程式
+### 如何下載yay
 <https://github.com/Jguer/yay>
 
 輸入以下指令就好。
@@ -223,9 +215,8 @@ sudo pacman -S --needed git base-devel yay
 
 ---
 
-## 切換獨顯內顯
-
-### 安裝
+### 切換獨顯內顯
+#### 安裝
 
 有envycontol跟optimus-manager可以用
 這邊選擇使用envycontrol
@@ -241,9 +232,7 @@ yay -S envycontrol
 sudo envycontrol -s <MODE>
 ```
 
-
-### GUI
-
+#### GUI
 在內建的安裝程式裡搜尋optimus gpu switcher就可以找到了
 ![image](https://hackmd.io/_uploads/H1yu79O-R.png)
 
@@ -252,22 +241,19 @@ sudo envycontrol -s <MODE>
 ![image](https://hackmd.io/_uploads/ryRklcuWA.png)
 記得切換完模式之後重新啟動。
 
-## 安裝vscode
-
+### 安裝vscode
 輸入指令至console。
 
 ```
 yay -S visual-studio-code-bin
 ```
-## 安裝Line
-
+### 安裝Line
 說真的我不是很喜歡用Line，但沒辦法，不管你有多討厭Line，終究還是會被逼著下載Line。
 所以我們還是得來研究如何在linux上面下載Line，哈哈哈...嗚嗚...
 
 原教學文章：<https://ivonblog.com/posts/linux-bottles-install-line/>
 
-## 備份工具 timeshift
-
+### 備份工具 timeshift
 ```
 sudo pacman -S timeshift
 ```
@@ -277,9 +263,9 @@ timeshift沒辦法在網路硬碟或者是非linux的檔案系統（像是window
 
 別人的教學文章：<https://ivonblog.com/posts/linux-timeshift-usage/>
 
-# 其他問題
+## 其他問題
 
-## grub頁面沒出現
+### grub頁面沒出現
 
 後來又重新安裝了一次系統，然後也遇到了前面也遇過的問題。
 安裝windows時，顯示「電腦所需的媒體驅動程式遺失」，這似乎是因為usb3.0驅動的關係，但我的筆電沒有2.0的孔，手邊也沒有2.0的usb，原本想只能等回家再處理。因為急著用筆電，所以先載了manjaro，硬碟預留了一些空間之後裝windows。
@@ -296,12 +282,12 @@ sudo update-grub
 參考資料：<https://forum.manjaro.org/t/grub-menu-not-showing-on-boot-boots-into-default-kernel-instead/13410/3>
 
 
-# 延伸資料
+## 延伸資料
 
-# MSR、ESP與EFI分區是什麼
+## MSR、ESP與EFI分區是什麼
 <https://baiyunju.cc/8773>
 
-# manjaro的各種分區是什麼
+## manjaro的各種分區是什麼
 <https://zhuanlan.zhihu.com/p/268508247>
 
 * /boot/efi：FAT32，512M，启动分区
