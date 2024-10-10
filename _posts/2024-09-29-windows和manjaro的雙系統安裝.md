@@ -2,7 +2,7 @@
 layout: post
 title: windows和manjaro的雙系統安裝
 date: 2024-09-29 16:35 +0800
-categories: [教學, windows&linux]
+categories: [教學, 系統安裝]
 tags: [windows, linux, manjaro]
 description: 在一個硬碟裡同時安裝windows和linux
 ---
